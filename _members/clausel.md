@@ -1,7 +1,7 @@
 ---
 layout: about
 inline: true
-group: Associated Faculty
+group: External Collaborators
 group_rank: 2
 team_frontpage: false
 
@@ -19,7 +19,7 @@ profile:
     name: Marianne Clausel
     align: right
     image: misc.jpg
-    role: Associated Faculty
+    role: External Collaborators
     twitter: 
     github: 
     email: marianne.clausel@univ-lorraine.fr
