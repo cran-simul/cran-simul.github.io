@@ -18,7 +18,7 @@ teaser: >
 profile:
     name: Rima Khouja
     align: right
-    image: misc.jpg
+    image: khouja.jpg
     role: Postdoctoral researchers
     twitter: 
     github: 
