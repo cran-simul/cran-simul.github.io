@@ -1,0 +1,33 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ:
+#  education1:
+#  education2:
+#  education3:
+#  education4:
+
+- name: Philippe Flores
+  photo: flores.jpg
+  info: PhD student
+  email: philippe.flores@univ-lorraine.fr
+  subject: "Probability density function estimation in high dimensions with low-rank tensor models: application to immune cells characterization."
+
+- name: Narech Houessou
+  photo: houessou.jpg
+  info: PhD Student
+  email: narech.houessou@univ-lorraine.fr
+  subject: "Machine learning and data fusion for environmental monitoring. Application to risk exposure prevention in working environments."
+
+- name: Saulo Barreto
+  photo: barreto.jpg
+  info: PhD Student
+  email: saulo.barreto@univ-lorraine.fr
+  subject: "Physics-informed methods for learning low-rank models in polarization imaging. Application to cancer cell detection in bio-imaging"
+
+- name: Radouan Dahbi
+  photo: misc.jpg
+  info: PhD Student
+  email: radouan.dahbi@univ-lorraine.fr
+  subject: "Methodology for designing a hierarchical classifier. Application to the classification of wood pieces according to their appearance and the quality of the finishing."

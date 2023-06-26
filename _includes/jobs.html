@@ -1,0 +1,56 @@
+          <!-- <div class="news">
+
+
+            {% if site.jobs != blank -%}
+            {%- assign jobs_size = site.jobs | size -%}
+            <div class="table-responsive" {% if include.limit and site.position.scrollable and jobs_size > 3 %}style="max-height: 60vw"{% endif %}>
+              <table class="table table-sm table-borderless">
+              {%- assign jobs = site.jobs | reverse -%}
+              {% if include.limit and site.positions.limit %}
+              {% assign jobs_limit = site.positions.limit %}
+              {% else %}
+              {% assign jobs_limit = jobs_size %}
+              {% endif %}
+              {% for item in jobs limit: jobs_limit %}
+                <tr>
+                  <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+                  <td>
+                    {% if item.inline -%}
+                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                    {%- else -%}
+                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    {%- endif %}
+                  </td>
+                </tr>
+              {%- endfor %}
+              </table>
+            </div>
+          {%- else -%}
+            <p>There are no job offers at the moment.</p>
+          {%- endif %}
+          </div> -->
+          <div class="news">
+            {% assign active_jobs = site.jobs | where: "active", true %}
+            {% if active_jobs != blank -%}
+            <div class="table-responsive" style="max-height: 60vw">
+              <table class="table table-sm table-borderless">
+              {%- assign jobs = active_jobs | reverse -%}
+              {% for item in jobs %}
+                <tr>
+                  <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+                  <td>
+                    {% if item.inline -%}
+                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                    {%- else -%}
+                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    {%- endif %}
+                  </td>
+                </tr>
+                {% endfor %}
+              </table>
+            </div>
+            {%- else -%}
+            <p>There are no open position currently but we might find some. Send us an email! See also our <a href="{{base.url}}/jobs/">past positions</a>.</p>
+          {%- endif %}
+
+          </div>

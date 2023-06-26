@@ -1,0 +1,170 @@
+#-  speaker: Christian Wolf
+#   institution: LIRIS, Lyon
+#   date:  December, 16th 2021, 14h-15h
+#   title: Learning high-level reasoning in vision, language and robotics
+#   abstract: "An important sub goal of AI is the creation of intelligent agents, which require high-level reasoning capabilities, situation awareness, and the capacity of robustly taking the right decisions at the right moments. An exact definition of the term reasoning is difficult, but we define it as the opposite of exploiting spurious biases and short-cuts in training data picked up by low-level statistics, and which could lead to dramatic losses in generalization beyond the training data.
+#
+#   In this talk we will cover the automatic learning reasoning capabilities through large-scale training of deep neural networks from data, and we target different situations, like robotics and embodied computer vision (robot navigation to solve visual tasks) as well as vision and language reasoning (visual question answering). We explore this problem in a holistic way and study it from various angles of attack: what are the tasks which lead to emergence of reasoning? How can we evaluate agents and measure reasoning vs. bias exploitation? How can we x-ray neural models and visualize their internal behavior? What are the bottlenecks in learning reasoning? Can we structure neural networks with inductive bias to improve the emergence of reasoning, by including prior knowledge on geometry, physics, or semantics?"
+#   active: 1
+-  speaker:  Joppe De Jonghe
+   institution: KU Leuven, Belgium
+   date:  April, 6th 2023, 14h-15h
+   title: "Learning non-linearities in the two layer decoupling problem with an application to neural network compression"
+   abstract: "Methods for the decoupling of multivariate functions have been developed  in order to determine the parameters and internal representations of  non-linear static components in block-oriented system identification. These methods solve the single layer decoupling problem, whose solution has a natural interpretation as a neural network with a single hidden layer with flexible activation functions in the neurons. As a result, these methods have been used to compress neural (sub)networks. However, currently only compression to a single hidden layer is well understood but more complex (sub)networks may require more flexibility in the number of hidden layers. Providing compression to more than one hidden layer corresponds to approximating a solution of a multi-layer decoupling problem. In this talk I will shortly describe the single layer decoupling problem and why multi-layer decoupling is relevant, more specifically forneural network compression. Next, I will present the two layer decoupling problem as well as a solution strategy. In addition, two algorithms for approximating a solution will be discussed and described conceptually."
+   active: 0
+   year: 2023
+
+-  speaker:  Khazhgali Kozhasov
+   institution: TU Braunschweig, Germany
+   date:  December, 6th 2022, 14h-15h
+   title: "Real aspects of the problem of rank-one approximation"
+   abstract: "Let us consider the problem of approximating a real tensor T (of a given format) by a rank-one tensor T_1 that minimizes (the Frobenius) norm ||T-S_1|| among all rank-one tensors S_1. A tensor T_1 is, in particular, a critical point of the square of the distance function dist_T: S_1 -> ||T-S_1||^2 on the manifold X of rank-one tensors. The largest possible number N of critical points of dist_T among all generic T can be interpreted as a measure of complexity of the rank-one approximation problem. I will discuss a bound on N due to Friedland and Ottaviani and will explain a technique that has been successfully used to determine a sharp bound on the number of symmetric critical points of dist_T for a symmetric tensor T. If time permits, I will discuss tensors that have worst rank-one approximation error and mention a recent result that roughly means that symmetric tensors are as far from being of rank one as general tensors."
+   active: 0
+   year: 2022
+
+-  speaker:  Lorena León
+   institution: IRIT, University of Toulouse
+   date:  November, 17th 2022, 14h-15h
+   title: "Bayesian Multivariate Multifractal Analysis with application to Drowsiness Detection"
+   abstract: "Multifractal analysis has become a reference tool for signal and image processing. Grounded in the quantification of local regularity fluctuations, it has proven useful in an increasing range of applications, yet so far involving only univariate data (scalar valued time series or single channel images). Recently the theoretical ground for multivariate multifractal analysis has been devised, showing potential for quantifying transient higher-order dependence beyond linear correlation among collections of data. However, the accurate estimation of the parameters associated with a multivariate multifractal model remains challenging, especially for small sample size data. This work studies an original Bayesian framework for multivariate multifractal estimation, combining a novel and generic multivariate statistical model, a Whittle-based likelihood approximation and a data augmentation strategy allowing parameter separability. This careful design enables efficient estimation procedures to be constructed for two relevant choices of priors using a Gibbs sampling strategy. Monte Carlo simulations, conducted on synthetic multivariate signals and images with various sample sizes and multifractal parameter settings, demonstrate significant performance improvements over the state of the art, at only moderately larger computational cost. Moreover, we show the relevance of the proposed framework for real-world data modeling in the important application of drowsiness detection from multichannel physiological signals."
+   active: 0
+   year: 2022
+
+
+-  speaker: Jonathan Gillard
+   institution: Cardiff University
+   date:  November, 10th 2022, 14h-15h
+   title: "Low-rank methods for time series analysis."
+   abstract: "This talk will describe some classic and recent results on low-rank methods for problems of time series analysis. The first typical and fundamental step to enable low-rank methods in this setting is to embed a time series into a Hankel matrix; low-rank approximations of this matrix which maintain the Hankel structure have meaning for classical problems such as approximation, de-noising, and forecasting. This claim will be justified in the talk and is part of a broader field known as structured low-rank approximation (SLRA). We discuss some results in SLRA before describing recent work on the nuclear norm convex relaxation of the rank minimization of Hankel matrices for forecasting, which gives rise to interesting theory and much potential for application, and can be viewed as a particular problem of matrix completion."
+   active: 0
+   year: 2022
+
+
+-  speaker: Barbara Pascal
+   institution: CRIStAL, Lille
+   date:  July, 12th 2022, 10h30-11h30
+   title: "The Kravchuk transform: a novel covariant representation for discrete signals amenable to zero-based detection tests."
+   abstract: "Recent works in time-frequency analysis proposed to switch the focus from the maxima of the spectrogram toward its zeros, which form a random point pattern with a very stable structure. Several signal processing tasks, such as component disentanglement and signal detection procedures, have already been renewed by using modern spatial statistics onthe pattern of zeros. Tough, they require cautious choice of both the discretization strategy and the observation window in the time-frequency plane. To overcome these limitations, we propose a generalized time-frequency representation: the Kravchuk transform, especially designed for discrete signals analysis, whose phase space is the unit sphere, particularly amenable to spatial statistics. We show that it has all desired properties for signal processing, among which covariance, invertibility and symmetry, and that the point process of the zeros of the Kravchuk transform of complex white Gaussian noise coincides with the zeros of the spherical Gaussian Analytic Function. Elaborating on this theorem, we finally develop a Monte Carlo envelope test procedure for signal detection based on the spatial statistics of the zeros of the Kravchuk spectrogram. After reviewing the unorthodox path focusing on the zeros of the standard spectrogram and the associated theoretical results on the distribution of zeros in the case of white noise, I will introduce the Kravchuk transform and study the random point process of its zeros from a spatial statistics perspective. Then I will present the designed Monte Carlo envelop test, and illustrate its numerical performance in adversarial settings, with both low signal-to-noise ratio and small number of samples, and compare it to state-of-the-art zeros-based detection procedures."
+   active: 0
+   year: 2022
+
+-  speaker: Tulay Adali
+   institution: University of Maryland, Baltimore County
+   date:  May, 30th 2022, 13h30-14h30
+   title: "Independent Component and Vector Analyses"
+   abstract: "In many fields today, such as  neuroscience, remote sensing, computational social science, and physical sciences, multiple sets of data are readily available. Matrix and tensor factorizations enable joint analysis, i.e., fusion, of these multiple  datasets such that they can fully interact and inform each other while also minimizing the assumptions placed on their inherent relationships. A key advantage of these methods is the direct interpretability of their results. This talk presents an overview of models based on independent component analysis (ICA), and its generalization to multiple datasets, independent vector analysis (IVA) with examples in fusion of neuroimaging data. Relationship of IVA to other methods such as multiset canonical correlation analysis (MCCA) is discussed, and a number of important directions of research are addressed, along with the challenges."
+   active: 0
+   year: 2022
+
+-  speaker: Raphael Mignot
+   institution: IECL, Nancy
+   date:  May, 05th 2022, 10h30-11h30
+   title: "Barycentres de séries temporelles : une nouvelle approche basée sur la méthode de la signature"
+   abstract: La méthode de la signature a été largement utilisée pour l'analyse des séries temporelles multivariées. Cette approche a prouvé son efficacité pour de nombreuses applications  en apprentissage statistique. La définition d'une notion de barycentre dans l'espace des signatures est un premier pas prometteur permettant de développer de nouvelles extensions de l'analyse en composantes principales (ACP)  ou de l'algorithme des k-moyennes aux séries temporelles.
+   active: 0
+   year: 2022
+
+-  speaker: Rima Khouja
+   institution: INRIA, Sophia Antipolis
+   date:  April, 28th 2022, 10h-11h
+   title: "Riemannian Newton optimization methods for the symmetric tensor approximation problem"
+   abstract: Tensors are higher order generalization of matrices. They appear in a myriad of applications. The tensor rank decomposition is to write the tensor as a minimal sum of simple rank-1 tensors. In practice, the presence of noise in the tensor's inputs means that computing an approximated low rank decomposition is more relevant than computing the exact tensor rank decomposition. This problem is known as the low rank tensor approximation problem. In this talk, we discuss the low rank tensor approximation problem for symmetric tensors i.e. tensors with unchanged entries under any permutation of their indices. The symmetric tensors are considered with complex coefficients. We present a Riemannian optimization approach proposing Riemannian Newton and Riemannian Gauss-Newton algorithms to solve this problem. We show how the low rank symmetric tensor approximation problem can be used for tackling the problem of recovering spherical Gaussian mixture models from datasets, where the tensor is built from empirical moments of the data distribution.
+   active: 0
+   year: 2022
+
+
+-  speaker: Clément Elvira
+   institution: IETR, Rennes
+   date:  December, 9th 2021, 10h-11h
+   title: "Safe screening: introduction and perspectives"
+   pdf: 2021_12_Elvira.pdf
+   active: 0
+   year: 2021
+
+
+-  speaker: Simon Barthelmé
+   institution: Gipsa-Lab, France
+   date: November, 19th 2021, 15h-16h
+   title: Smoothing (Large) Graph Signals using Random Forests
+   abstract: A natural way of denoising graph signals is to penalise local variation using the graph Laplacian. Because this has worst-case cost O(n^3) in the number of nodes, exact methods cannot be used for very large graphs. I'll show how a simple stochastic process can be used to obtain fast unbiased estimators for the smoothed signal. I'll introduce some variance reduction techniques, including a gradient-descent technique that works more generally whenever an unbiased estimator of a least-squares problem is available. Joint work with Yigit Pilavci, Nicolas Tremblay, P-O Amblard
+   active: 0
+   year: 2021
+   
+-  speaker: Mariya  Ishteva
+   institution: KU Leuven, Belgium
+   date:  October, 21th 2021, 14h30-15h
+   title: Tensor methods with applications in system identification
+   abstract: "TBD"
+   pdf: 1_Ishteva_Presentation_Mariya_2021_Nancy.pdf
+   active: 0
+   year: 2021
+
+-  speaker: Jean-Yves Tourneret
+   institution: ENSEEIHT, Toulouse
+   date:  October, 21th 2021, 15h-15h40
+   title: "Hypersphere Fitting: Model, Algorithms and Future Work"
+   abstract: "We will present a recent EM algorithm for hypersphere fitting based on a von Mises-Fisher prior. The algorithm achieves competitive performance compared to the state-of-the-art. In addition, it can be easily robustified to mitigate the presence of potential outliers. After presenting some results obtained with this algorithm, we will discuss some open issues related to the application to LiDAR point clouds. These open issues include the consideration of mixtures of hyperspheres, the segmentation and denoising of LiDAR point clouds and the fusion of point clouds with RGB images"
+   active: 0
+   pdf: 2_Tourneret_Slides_Nancy_21octobre2021.pdf
+   year: 2021
+
+-  speaker:  Eric Chaumette
+   institution: ISAE-Supaéro, Toulouse
+   date:  October, 21th 2021, 15h40-16h10
+   title: "Robust Linearly Constrained Filtering and Smoothing: Results and Applications"
+   abstract: "It is well-known that Wiener and Kalman filter (KF) like techniques are sensitive to misspecified covariances, uncertainties in the system matrices and parameters, filter initialization or unexpected system behaviors induced by time-varying environments, harsh propagation conditions, malicious interferences or unmodeled inputs. In this talk we introduce a possible solution to robustify these estimation techniques through linear constraints (LCs): i) we detail the linearly constrained KF (LCKF), where a set of non-stationary LCs can be set at every time step, ii) we show how to use such LCs to mitigate modeling errors in general mismatched linear discrete state-space models, and iii) we point the reader to some recent LCKF extensions (i.e., information filter, invariant filter, linear smoother and  LC-extended/cubature-KF). Some applications of interest are provided to support the discussion: robust array processing, GNSS position and attitude estimation, invariant navigation and visual SLAM."
+   active: 0
+   pdf: 3_Chaumette_Slides_Robust_LCKF_CRAN.pdf
+   year: 2021
+
+
+
+
+
+-  speaker: Radu Ranta
+   institution: CRAN, Université de Lorraine
+   date:  June, 24th 2021, 10h-11h
+   title: Low-Rank Inverse Problems in Brain Signal Processing
+   abstract: "The presentation will start by introducing the basics principles of biophysics allowing to model the electrophysiological brain measurements (EEG / SEEG / micro-electrodes), and more precisely the relations between the neural current sources and the electrodes. Once the signal model defined, I will briefly present some of the classical methods for solving the inverse problem of brain sources estimation (localization and activity), and I will focus next on our work on sparse approximations and low-rank (exact and approximate) source estimates."
+   active: 0
+   year: 2021
+
+-  speaker: Gaëtan Frusque
+   institution: ETH Zürich
+   date:  April, 16th 2021, 10h-11h
+   title: Inférence et décomposition de graphes dynamiques en neurosciences
+   abstract: "Dynamic graphs make it possible to understand the evolution of complex systems which evolve through time. In this thesis, we look at their applications to understand one of the most common neurological disorder in the world, affecting around 1% of the population: epilepsy. A complete and objective characterization of the patient-specific dynamic graph describing this pathology is crucial for optimal surgical treatment. First, we propose to modify a measure of functional connectivity, the Phase-Locking-Value, in order to infer robust dynamic graph from the neurophysiological signal recorded during an epileptic seizure. Constrained matrix decomposition method is applied to extract the principal features from the dynamic graph describing the pathology. Finally, a clinical study is performed to compare the obtained features from the visual interpretation of a clinician specialized in neurophysiological signal interpretation."
+   active: 0
+   year: 2021
+
+- speaker: Titouan Parcollet
+  institution: Université d’Avignon
+  date:  March, 24th 2021, 14h-15h
+  title: Should we use quaternion neural networks? Recent advances and limitations.
+  abstract: Real-world data used to train modern artificial neural networks reflect the complexity of the environment that we are evolving in. As a consequence, they are neither flat, nor decorrelated nor one dimensional. Instead, scientists have to deal with composed and multidimensional entities, that are characterized by multiple related components, such as color channels describing a single color pixel of an image, or the 3D coordinates of a point denoting the position of a robot. Surprisingly, recent advances on deep learning are mainly focused on developing novel architectures to extract even more relevant and robust high level representations from the input features, while the latter are still poorly considered at a lower and basic level, by being processed with one dimensional real-valued neural models. Neural networks based on complex and quaternion numbers have been used sparsely for many decades. Nonetheless, due to new statements and proofs about the benefits of these models over real-valued ones on many real-world tasks, quaternion based neural networks have been increasingly employed, and novel quaternion based architectures have been proposed. This talk will detail quaternion neural networks architectures for artificial intelligence related tasks, such as image processing, or speech recognition, by introducing first the basics of quaternion numbers, and then describing recent advances on quaternion neural networks with the quaternion convolutional (Interspeech 2018, ICASSP 2019) and recurrent neural networks (ICLR 2019, Interspeech 2020). This presentation will also show their benefits in terms of performances obtained in different tasks, as well as in terms of neural parameters required for learning. Finally, the talk will outline important future research directions to turn quaternion neural networks into a mandatory alternative to real-valued models for real-world tasks.
+  active: 0
+  year: 2021
+ 
+- speaker: Konstantin Usevich
+  institution: CRAN, SiMul
+  date:  February, 05th 2021, 10h-11h
+  title: Kernel matrices in the flat limit
+  abstract: "Kernel matrices are ubiquitous in statistics and machine learning, where they occur most often as covariance matrices of Gaussian processes, in non-parametric or semi-parametric models. In approximation theory, they appear, for example, in approximation and interpolation with radial basis functions. Most of the theoretical work on kernel methods has focused on a large-n asymptotics, characterising the behaviour of kernel matrices as the amount of data increases. Fixed-sample analysis is much more difficult outside of simple cases, such as locations on a regular grid. In this talk I will describe a fixed-sample analysis that was first studied in the context of approximation theory by Fornberg & Driscoll (2002), called the “flat limit”. In flat-limit asymptotics, the goal is to characterise kernel methods as the length-scale of the kernel function tends to infinity, so that kernels appear flat over the range of the data. While the resulting kernel matrix becomes singular, fascinatingly, the interpolation and regression problems remain well-defined in the limit. I the talk, I will mainly report recent results on spectral properties of kernel matrices ( https://arxiv.org/abs/1910.14067). In the flat limit, different types of kernels behave differently, and what matters most is the smoothness of kernel functions. The flat limit also highlights the close kinship between kernel methods and polynomial and spline regression. If time permits, I will discuss some implications for GP regression and Determinantal Point Processes. This is joint work with S. Barthelmé, N. Tremblay and P.-O. Amblard (GIPSA-lab, Grenoble)."
+  active: 0
+  year: 2021
+
+- speaker: Fateme Ghayem
+  institution: Gipsa-Lab, Grenoble
+  date:  January, 13th 2021, 10h-11h
+  title: Optimal sensor placement for signal extraction
+  abstract: Many signal processing problems can be cast from a generic setting where a source signal propagates through a given environment to some sensors. Under this setting, we can be interested either in (i) estimating the source signal, or (ii) the environment, or even (iii) the resulting field of signals in some regions of the environment. In all these cases, signals are recorded by multiple sensors located at different positions. Due to price, energy, or ergonomic constraints, the number of sensors is often limited and it becomes crucial to place a few sensors at positions that contain the maximum information. This problem corresponds to optimal sensor placement and it appears in a great number of applications. The way to tackle the problem of optimal sensor placement depends on which of the three aspects mentioned above we want to address. In this talk, we focus on estimating a source signal from a set of noisy measurements collected from a limited number of sensors, and we present new criteria as well as algorithms. Specifically, our first proposed criterion maximizes the average signal to noise ratio (SNR) of the estimated signal, and we experimentally show that the performance obtained by this criterion outperforms the results obtained using classical Kriging-based methods. Since the SNR is uncertain in this context, to achieve a robust signal extraction, we propose a second placement criterion based on the maximization of the probability that the output SNR exceeds a given threshold. This criterion can be easily evaluated using a Gaussian process assumption for the signal, the noise, and the environment. Moreover, to reduce the computational complexity of the joint maximization of the criterion with respect to all sensor positions, we propose a greedy algorithm where the sensor positions are sequentially (i.e. one by one) selected. Finally, for improving the sub-optimal greedy algorithm, we present an optimization approach to locate all the sensors at once. For this purpose, we add a constraint to the problem that can control the average distances between the sensors. To solve our problem, we use an alternating optimization penalty method.
+  active: 0
+  year: 2021
+
+- speaker: Nikola Besic
+  institution: Centre Météorologie Radar de Météo-France, Toulouse
+  date:  December, 14th 2020, 14h-15h
+  title: "Mes expériences dans la télédétection radar : la Terre depuis le ciel, le ciel depuis la Terre, et comment profiter des deux ?"
+  abstract: "La télédétection radar est une discipline qui repose sur le traitement du signal, d'images et de données, et sur la physique. Caractérisée par les nombreuses spécificités par rapport aux autres moyens de télédétection, cette discipline s'est montrée indispensable dans l'observation de la Terre et de l'atmosphère. De plus, il s'agit d'un domaine qui a motivé et permis de nombreux travaux de recherche concernant l'analyse statistique du signal, d'images et de données. Nikola Besic partagera avec nous certaines de ces expériences dans l'observation de la Terre depuis le ciel, et dans l'observation du ciel depuis la Terre, au moyen de radar. La première partie de son exposé adresse alors les travaux effectués sur le sujet du Radar à Synthèse d'Ouverture, satellitaire et polarimétrique, qui incluent la problématique des modèles statistiques et de la décomposition, ainsi que l'application dans le contexte des études de la cryosphère. La deuxième partie concerne plutôt l'observation de l'atmosphère avec un radar toujours polarimétrique, mais cette fois-ci terrestre, et ses efforts de trouver un compromis entre la physique et l'apprentissage automatique à partir de données, dans un contexte des méthodes de classification semi-supervisée."
+  active: 0
+  year: 2020
