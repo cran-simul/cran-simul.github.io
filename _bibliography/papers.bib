@@ -1,254 +1,84 @@
 ---
 ---
-All References
-==========
-@preprint{flamant2022polarimetric,
-  title = {{Polarimetric phase retrieval: uniqueness and algorithms}},
-  author = {Flamant, Julien and Usevich, Konstantin and Clausel, Marianne and Brie, David},
-  url = {https://arxiv.org/abs/2206.12868?context=eess},
-  year = {2022},
-  month = June,
-  abstract={This work introduces a novel Fourier phase retrieval model, called polarimetric phase retrieval that enables a systematic use of polarization information in Fourier phase retrieval problems. We provide a thorough characterization of uniqueness properties of this new model by unraveling equivalencies with a peculiar polynomial factorization problem. We introduce two different but complementary categories of reconstruction methods. The first one is algebraic and relies on the use of approximate greatest common divisor computations using Sylvester matrices. The second one carefully adapts existing algorithms for Fourier phase retrieval, namely semidefinite positive relaxation and Wirtinger-Flow, to solve the polarimetric phase retrieval problem. Finally, a set of numerical experiments permits a thorough assessment of the numerical behavior and relative performances of each proposed reconstruction strategy. We further highlight a reconstruction strategy that combines both approaches for scalable, computationally efficient and asymptotically MSE optimal performance.},
-  arxiv={https://hal.archives-ouvertes.fr/hal-03613352/document}
+
+@string{aps = {American Physical Society,}}
+
+@book{einstein1956investigations,
+  bibtex_show={true},
+  title={Investigations on the Theory of the Brownian Movement},
+  author={Einstein, Albert},
+  year={1956},
+  publisher={Courier Corporation},
+  preview={brownian-motion.gif}
 }
 
-@article{flamant2022optimization,
-  author={Flamant, Julien and Miron, Sebastian and Brie, David},
-  journal={IEEE Transactions on Signal Processing},
-  title={A General Framework for Constrained Convex Quaternion Optimization},
-  year={2022},
-  volume={70},
-  number={},
-  pages={254-267},
-  doi={10.1109/TSP.2021.3137746},
-    arxiv={https://arxiv.org/abs/2102.02763},
-  abstract={This paper introduces a general framework for solving constrained convex quaternion optimization problems in the quaternion domain. To soundly derive these new results, the proposed approach leverages the recently developed generalized HR-calculus together with the equivalence between the original quaternion optimization problem and its augmented real-domain counterpart. This new framework simultaneously provides rigorous theoretical foundations as well as elegant, compact quaternion-domain formulations for optimization problems in quaternion variables. Our contributions are threefold: (i) we introduce the general form for convex constrained optimization problems in quaternion variables, (ii) we extend fundamental notions of convex optimization to the quaternion case, namely Lagrangian duality and optimality conditions, (iii) we develop the quaternion alternating direction method of multipliers (Q-ADMM) as a general purpose quaternion optimization algorithm. The relevance of the proposed methodology is demonstrated by solving two typical examples of constrained convex quaternion optimization problems arising in signal processing. Our results open new avenues in the design, analysis and efficient implementation of quaternion-domain optimization procedures.}}
-
-
-@article{bonnel2021polarization,
-  author          = {Bonnel, Julien and Flamant, Julien and Dall’Osto, David R. and Le Bihan, Nicolas and Dahl, Peter H.},
-  title           = {Polarization of ocean acoustic normal modes},
-  journal         = {The Journal of the Acoustical Society of America, In Press},
-  volume          = {},
-  number          = {},
-  year            = {2021},
-  abstract = {In ocean acoustics, shallow water propagation is conveniently described using normal mode propagation. This article proposes a framework to describe the polarization of normal modes, as measured using a particle velocity sensor in the water column. To do so, the article introduces the Stokes parameters, a set of four real-valued quantities widely used to describe polarization properties in wave physics, notably for light. Stokes parameters of acoustic normal modes are theoretically derived, and a signal processing framework to estimate them is introduced. The concept of polarization spectrogram, which enables the visualization of the Stokes parameters using data from a single vector sensor, is also introduced. The whole framework is illustrated on simulated data, as well as on experimental data collected during the 2017 Seabed Characterization Experiment (SBCEX17). By introducing the Stokes framework used in many other fields, the article opens the door to a large set of methods developed and used in other contexts, but largely ignored in ocean acoustics.},
-doi={https://doi.org/10.1121/10.0006108},
-}
-@inproceedings{flamant2019novel,
-author={J. {Flamant} and S. {Miron} and D. {Brie}},
-booktitle={2019 IEEE 8th International Workshop on Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP)},
-title={Quaternion Non-negative Matrix Factorization: a new tool for spectropolarimetric imaging},
-year={2019},
-pages={336-340},
-abstract={Quaternion non-negative matrix factorization (QNMF) is a new tool which generalizes usual non-negative matrix factorization (NMF) to the case of polarized signals. The approach relies on two key features: (i) the algebraic representation of polarization information, namely Stokes parameters, thanks to quaternions and (ii) the exploitation of physical constraints linked to polarization generalizing non-negativity constraints. QNMF improves NMF model identifiability by revealing the key disambiguating role played by polarization information. A simple and numerically efficient algorithm is introduced for practical resolution of the QNMF problem. Numerical experiments on synthetic data validate the proposed approach and illustrate the potential of QNMF as a generic spectropolarimetric image unmixing tool.},
-doi={https://doi.org/10.1109/CAMSAP45676.2019.9022487}, ISSN={}, month={Dec},}
-
-
-
-@inproceedings{bardenet2019correspondence,
-  TITLE = {{A correspondence between zeros of time-frequency transforms and Gaussian analytic functions}},
-  AUTHOR = {Bardenet, R. and Chainais, Pierre and Flamant, Julien and Hardy, Adrien},
-  abstract={In this paper, we survey our joint work on the point processes formed by the zeros of time-frequency transforms of Gaussian white noises [1], [2]. Unlike both references, we present the work from the bottom up, stating results in the order they came to us and commenting what we were trying to achieve. The route to our more general results in [2] was a sort of ping pong game between signal processing, harmonic analysis, and probability. We hope that narrating this game gives additional insight into the more technical aspects of the two references. We conclude with a number of open problems that we believe are relevant to the SampTA community},
-  doi = {https://hal.archives-ouvertes.fr/hal-02091672},
-  BOOKTITLE = {{SampTA 2019 - 13th International conference on sampling theory and applications}},
-  ADDRESS = {Bordeaux, France},
-  YEAR = {2019},
-  MONTH = Aug,
-  KEYWORDS = {white noise ; spectrogram zeros ; point process ; time-frequency/time-scale analysis},
+@article{einstein1950meaning,
+  abbr={AJP},
+  bibtex_show={true},
+  title={The meaning of relativity},
+  author={Einstein, Albert and Taub, AH},
+  journal={American Journal of Physics},
+  volume={18},
+  number={6},
+  pages={403--404},
+  year={1950},
+  publisher={American Association of Physics Teachers}
 }
 
-@article{flamant2020quaternion,
-Author = {Julien Flamant and Sebastian Miron and David Brie},
-Title = {Quaternion Non-negative Matrix Factorization: definition, uniqueness and algorithm},
-Year = {2020},
-volume={68},
-number={},
-pages={1870-1883},
-Eprint = {arXiv:1903.10593},
-journal={IEEE Transactions on Signal Processing},
-arxiv={https://arxiv.org/abs/1903.10593},
-doi={https://doi.org/10.1109/TSP.2020.2974651},
-abstract={This article introduces the notion of quaternion non-negative matrix factorization (Q-NMF), which extends the usual non-negative matrix factorization (NMF) to the case of bivariate or polarized signals. The Q-NMF relies on two key ingredients: (i) the algebraic representation of polarization information thanks to quaternions and (ii) the exploitation of physical polarization constraints that generalize non-negativity. Uniqueness conditions for the Q-NMF are presented. The relationship between Q-NMF and NMF highlights the key disambiguating role played by polarization information. A simple yet efficient algorithm called quaternion alternating least squares (Q-ALS) is introduced to solve the Q-NMF problem in practice. Numerical experiments on synthetic data demonstrate the relevance of the approach, which appears very promising, notably for blind source separation problems arising in spectro-polarimetric imaging.}
+@article{PhysRev.47.777,
+  abbr={PhysRev},
+  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
+  author={Einstein, A. and Podolsky, B. and Rosen, N.},
+  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
+  journal={Phys. Rev.},
+  volume={47},
+  issue={10},
+  pages={777--780},
+  numpages={0},
+  year={1935},
+  month={May},
+  publisher=aps,
+  doi={10.1103/PhysRev.47.777},
+  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
+  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
+  pdf={example_pdf.pdf},
+  altmetric={248277},
+  dimensions={true},
+  selected={true}
 }
 
-
-
-@inproceedings{flamant:hal-01691274,
-  TITLE = {{Analyse spectrale des signaux al{\'e}atoires bivari{\'e}s}},
-  AUTHOR = {Flamant, Julien and Le Bihan, Nicolas and Chainais, Pierre},
-  doi = {https://hal.archives-ouvertes.fr/hal-01691274},
-  BOOKTITLE = {{GRETSI}},
-  ADDRESS = {Juan-les-Pins, France},
-  YEAR = {2017},
-  MONTH = {Sep},
-  HAL_ID = {hal-01691274},
-  HAL_VERSION = {v1},
-}
-@inproceedings{flamantGretsi2,
-  TITLE = {{Spectrogramme de polarisation pour l'analyse des signaux bivari{\'e}s}},
-  AUTHOR = {Flamant, Julien and Le Bihan, Nicolas and Chainais, Pierre},
-  BOOKTITLE = {{GRETSI}},
-  ADDRESS = {Juan-les-Pins, France},
-  YEAR = {2017},
-  MONTH = {Sep},
-  HAL_ID = {hal-01691274},
-  HAL_VERSION = {v1},
-  doi={https://hal.archives-ouvertes.fr/hal-01691276},
-}
-@INPROCEEDINGS{flamant18ssp,
-author={Flamant, Julien and  Chainais, Pierre and {Le Bihan}, Nicolas},
-booktitle={2018 IEEE Statistical Signal Processing Workshop (SSP)},
-title={Linear Filtering of Bivariate Signals Using Quaternions},
-year={2018},
-volume={},
-number={},
-pages={154-158},
-abstract={A new approach towards linear time-invariant (LTI) filtering of bivariate signals is proposed using a tailored quaternion Fourier transform. In the proposed framework LTI filters are naturally described by their eigenproperties providing economical, physically interpretable and straightforward filtering definitions in the frequency domain. It enables an easy design of LTI filters and a simple method for spectral synthesis of bivariate signals with prescribed frequency polarization properties. It also yields various natural decompositions of bivariate signals. Numerical experiments illustrate the approach.},
-doi={http://dx.doi.org/10.1109/SSP.2018.8450687},
-ISSN={},
-month={June},}
-
-@inproceedings{flamant18eusipco,
-author={Flamant, Julien and  Chainais, Pierre and Chassande-Mottin, Eric and Feng, Fangcheng and {Le Bihan}, Nicolas},
-title={Non-parametric characterization of
-gravitational-wave polarizations},
-booktitle={26th European Signal Processing Conference (EUSIPCO)},
-year={2018},}
-
-@article{flamant2018LTI,
-abstract={A complete framework for the linear time-invariant (LTI) filtering theory of bivariate signals is proposed based on a tailored quaternion Fourier transform. This framework features a direct description of LTI filters in terms of their eigenproperties enabling compact calculus and physically interpretable filtering relations in the frequency domain. The design of filters exhibiting fondamental properties of polarization optics (birefringence, diattenuation) is straightforward. It yields an efficient spectral synthesis method and new insights on Wiener filtering for bivariate signals with prescribed frequency-dependent polarization properties. This generic framework facilitates original descriptions of bivariate signals in two components with specific geometric or statistical properties. Numerical experiments support our theoretical analysis and illustrate the relevance of the approach on synthetic data.},
-Author = {Flamant, Julien and Chainais, Pierre and {Le Bihan}, Nicolas},
-Title = {A complete framework for linear filtering of bivariate signals},
-Year = {2018},
-journal={IEEE Transactions on Signal Processing},
-title={A Complete Framework for Linear Filtering of Bivariate Signals},
-year={2018},
-volume={66},
-number={17},
-pages={4541-4552},
-Eprint = {arXiv:1802.02469},
-arxiv={https://arxiv.org/abs/1802.02469},
-doi={http://dx.doi.org/10.1109/TSP.2018.2855659},
-ISSN={1053-587X},
-month={Sept},
-code={https://github.com/jflamant/bispy},}
-
-
-@article{bardenet2018zeros,
-abstract={In a recent paper, Flandrin [2015] has proposed filtering based on the zeros of a spectrogram, using the short-time Fourier transform and a Gaussian window. His results are based on empirical observations on the distribution of the zeros of the spectrogram of white Gaussian noise. These zeros tend to be uniformly spread over the time-frequency plane, and not to clutter. Our contributions are threefold: we rigorously define the zeros of the spectrogram of continuous white Gaussian noise, we explicitly characterize their statistical distribution, and we investigate the computational and statistical underpinnings of the practical implementation of signal detection based on the statistics of spectrogram zeros. In particular, we stress that the zeros of spectrograms of white Gaussian noise correspond to zeros of Gaussian analytic functions, a topic of recent independent mathematical interest [Hough et al., 2009].},
-Author = {Rémi Bardenet and Julien Flamant and Pierre Chainais},
-Title = {On the zeros of the spectrogram of white noise},
-Year = {2018},
-journal = {manuscript accepted for publication in Applied and Computational Harmonic Analysis},
-Eprint = {arXiv:1708.00082},
-arxiv={https://arxiv.org/abs/1708.00082},
-code={https://github.com/jflamant/2018-zeros-spectrogram-white-noise},
-doi={10.1016/j.acha.2018.09.002},
+@article{einstein1905molekularkinetischen,
+  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
+  author={Einstein, A.},
+  journal={Annalen der physik},
+  volume={322},
+  number={8},
+  pages={549--560},
+  year={1905},
+  publisher={Wiley Online Library}
 }
 
-
-
-
-@article{flamant2017spectral,
-abstract = {IEEE A novel approach towards the spectral analysis of stationary random bivariate signals is proposed. Unlike existing approaches, the proposed framework exhibits a natural link between well-defined statistical objects and physical parameters for bivariate signals. Using the Quaternion Fourier Transform, we introduce a quaternion-valued spectral representation of random bivariate signals seen as complex-valued sequences. This makes possible the definition of a scalar quaternion-valued spectral density and the corresponding autocovariance for bivariate signals. This spectral density can be meaningfully interpreted in terms of frequency-dependent polarization attributes. A natural decomposition of the spectral density of any random bivariate signal in terms of unpolarized and polarized components is introduced. Nonparametric spectral density estimation is investigated, and we introduce the polarization periodogram of a random bivariate signal. Numerical experiments support our theoretical analysis, illustrating the relevance of the approach on synthetic data.},
-author = {Flamant, Julien and {Le Bihan}, Nicolas and Chainais, Pierre},
-doi = {http://dx.doi.org/10.1109/TSP.2017.2736494},
-issn = {1053587X},
-journal = {IEEE Transactions on Signal Processing},
-number = {23},
-pages = {6135--6145},
-code={https://github.com/jflamant/bispy},
-title = {{Spectral analysis of stationary random bivariate signals}},
-volume = {65},
-year = {2017},
-arxiv={https://arxiv.org/abs/1703.06417}
+@article{einstein1905movement,
+  abbr={Ann. Phys.},
+  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
+  author={Einstein, A.},
+  journal={Ann. Phys.},
+  volume={17},
+  pages={549--560},
+  year={1905}
 }
 
-
-@article{flamant2016time,
-  Abstract={Many phenomena are described by bivariate signals or bidimensional vectors in applications ranging from radar to EEG, optics and oceanography. The time-frequency analysis of bivariate signals is usually carried out by analyzing two separate quantities, e.g. rotary components. We show that an adequate quaternion Fourier transform permits to build relevant time-frequency representations of bivariate signals that naturally identify geometrical or polarization properties. First, the quaternion embedding of bivariate signals is introduced, similar to the usual analytic signal of real signals. Then two fundamental theorems ensure that a quaternion short term Fourier transform and a quaternion continuous wavelet transform are well defined and obey desirable properties such as conservation laws and reconstruction formulas. The resulting spectrograms and scalograms provide meaningful representations of both the time-frequency and geometrical/polarization content of the signal. Moreover the numerical implementation remains simply based on the use of FFT. A toolbox is available for reproducibility. Synthetic and real-world examples illustrate the relevance and efficiency of the proposed approach.},
-  title={Time-frequency analysis of bivariate signals},
-  journal={Applied and Computational Harmonic Analysis},
-  author={Flamant, Julien and Le Bihan, Nicolas and Chainais, Pierre},
-  code={https://github.com/jflamant/bispy},
-  arxiv={http://arxiv.org/abs/1609.02463},
-  doi = {http://dx.doi.org/10.1016/j.acha.2017.05.007},
-  volume = "46",
-  number = "2",
-  pages = "351 - 383",
-  year = "2019",
-  issn = "1063-5203",
+@article{einstein1905electrodynamics,
+  title={On the electrodynamics of moving bodies},
+  author={Einstein, A.},
+  year={1905}
 }
 
-@article{flamant2016expansion,
-  Abstract= {In 3D single particle imaging with X-ray free-electron lasers, particle orientation is not recorded during measurement but is instead recovered as a necessary step in the reconstruction of a 3D image from the diffraction data. Here we use harmonic analysis on the sphere to cleanly separate the angular and radial degrees of freedom of this problem, providing new opportunities to efficiently use data and computational resources. We develop the Expansion-Maximization-Compression algorithm into a shell-by-shell approach and implement an angular bandwidth limit that can be gradually raised during the reconstruction. We study the minimum number of patterns and minimum rotation sampling required for a desired angular and radial resolution. These extensions provide new av- enues to improve computational efficiency and speed of convergence, which are critically important considering the very large datasets expected from experiment.},
-  title = {Expansion-maximization-compression algorithm with spherical harmonics for single particle imaging with x-ray lasers},
-  author = {Flamant, Julien and Le Bihan, Nicolas and Martin, Andrew V. and Manton, Jonathan H.},
-  journal = {Phys. Rev. E},
-  volume = {93},
-  issue = {5},
-  pages = {053302},
-  numpages = {14},
-  year = {2016},
-  month = {May},
-  publisher = {American Physical Society},
-  doi = {http://dx.doi.org/10.1103/PhysRevE.93.053302},
-  code={http://github.com/jflamant/sphericalEMC},
-  arxiv={http://arxiv.org/abs/1602.01301}
-}
-
-@article{lebihan2016diffusive,
-	Abstract = {This paper considers the problem of estimating probability density functions on the rotation group $SO(3)$. Two distinct approaches are proposed, one based on characteristic functions and the other on wavelets using the heat kernel. Expressions are derived for their Mean Integrated Squared Errors. The performance of the estimators is studied numerically and compared with the performance of an existing technique using the De La Vallee Poussin kernel estimator. The heat-kernel wavelet approach appears to offer the best convergence, with faster convergence to the optimal bound and guaranteed positivity of the estimated probability density function.},
-	author = {Le Bihan, Nicolas and Flamant, Julien and Manton, Jonathan H. },
-	Journal = {ISIF Journal of Advances in Information Fusion,},
-	Keywords = {Probability density estimation, Rotation group SO(3), Diffusive wavelets, Characteristic function, Kernel estimators, Mean Integrated Square Error (MISE), Mixture of densities},
-	Title = {Density estimation on the rotation group using diffusive wavelets},
-  volume = {11},
-  issue = {2},
-  pages = {173-185},
-  year = {2016},
-  month = {December},
-  arxiv={http://arxiv.org/abs/1512.06023},
-  doi={http://isif.org/publications/jaif-articles-appear-future-issue}}
-
-
-
-@inproceedings{flamant2016lowres,
-  title={Low-Resolution reconstruction of intensity functions on the sphere for single-particle diffraction imaging},
-  Abstract={Single-particle imaging experiments using X-ray Free-Electron Lasers (XFEL) belong to a new generation of X-ray imaging techniques potentially allowing high resolution images of non- crystallizable molecules to be obtained. One of the challenges of single-particle imaging is the reconstruction of the 3D intensity function from only a few samples collected on a planar detector after the interaction of a free falling molecule and the X-ray beam. In this paper, we take advantage of the symmetries of the intensity function to propose an original low-resolution reconstruction algorithm based on an Expansion Maximization Compression (EMC) approach. We study the problem of adequate sampling of the rotation group via simulation to illustrate the potential of the approach.},
-  author={Flamant, Julien and Le Bihan, Nicolas and Martin, Andrew V and Manton, Jonathan H},
-  booktitle={IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2016, Shanghai, China},
-  year={2016},
-  doi={http://doi.org/10.1109/ICASSP.2016.7471758}
-}
-
-@inproceedings{flamant2017polarization,
-  title={Polarization spectrogram of bivariate signals},
-  Abstract={Bivariate signals are commonly processed with the usual Fourier transform, using methods such as the rotary spectrum analysis. We show that bivariate signals can be efficiently processed using the Quaternion Fourier transform. A bivari- ate counterpart of the analytic signal is introduced, the quater- nion embedding of a complex signal. It leads to identify natu- ral parameters describing polarization properties, amplitude and phase of the signal. The properties of the quaternion short-term Fourier transform are studied and the polarization spectrogram is introduced. A synthetic example illustrates the relevance of the proposed approach.},
-  author={Flamant, Julien and Le Bihan, Nicolas and Chainais, Pierre},
-  booktitle={IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2017, New Orleans, USA},
-  year={2017},
-  doi={https://doi.org/10.1109/ICASSP.2017.7952905},
-}
-
-
-@thesis{flamant2015masterthesis,
-  Abstract={The ability to decipher the three-dimensional structures of biomolecules at high resolution will greatly improve our understanding of the biological machinery. To this aim, X-ray crystallography has been used by scientists for several decades with tremendous results. This imaging method however requires a crystal to be grown, and for most interesting biomolecules (proteins, viruses) this may not be possible. The single-particle experiment was proposed to address these limitations, and the recent advent of ultra-bright X-ray Free Electron Lasers (XFELs) opens a new set of opportunities in biomolecular imaging.
-
-In the single-particle experiment, thousands of diffraction patterns are recorded, where each image corresponds to an unknown, random orientation of individual copies of the biomolecule. These noisy, unoriented two-dimensional diffraction patterns need to be then assembled in three-dimensional space to form the three-dimensional intensity function, which characterizes completely the three-dimensional structure of the biomolecule.
-
-This work focuses on geometrical variations of an existing algorithm, the Expansion-Maximization-Compression (EMC) algorithm introduced by Loh and Elser. The algorithm relies upon an expec-tation-maximization method, by maximizing the likelihood of an intensity model with respect to the diffraction patterns. The contributions of this work are (i) the redefinition of the EMC algorithm in a spherical design, motivated by the intrinsic properties of the intensity function, (ii) the utilisation of an orthonormal harmonic basis on the three-dimensional ball which allows a sparse representation of the intensity function, (iii) the scaling of the EMC parameters with the desired resolution, increasing computational speed and (iv) the intensity error is analysed with respect to the EMC parameters.},
-  title={Three-dimensional intensity reconstruction in single-particle experiments: a spherical symmetry approach},
-  author={Flamant, Julien},
-  year={2015},
-  doi={http://hdl.handle.net/11343/58637}
-}
-
-@thesis{flamant2018phdthesis,
-  Abstract={Bivariate signals appear in a broad range of applications where the joint analysis of two real-valued signals is required: polarized waveforms in seismology and optics, eastward and northward current velocities in oceanography, pairs of electrode recordings in EEG or MEG or even gravitational waves emitted by coalescing compact binaries. Simple bivariate signals take the form of an ellipse, whose properties (size, shape, orientation) may evolve with time. This geometric feature of bivariate signals has a natural physical interpretation called polarization. This notion is fundamental to the analysis and understanding of bivariate signals. However, existing approaches do not provide straightforward descriptions of bivariate signals or filtering operations in terms of polarization or ellipse properties. To this purpose, this thesis introduces a new and generic approach for the analysis and filtering of bivariate signals. It essentially relies on two key ingredients: (i) the natural embedding of bivariate signals – viewed as complex-valued signals – into the set of quaternions H and (ii) the definition of a dedicated quaternion Fourier transform to enable a meaningful spectral representation of bivariate signals. The proposed approach features the definition of standard signal processing quantities such as spectral densities, linear time-invariant filters or spectrograms that are directly interpretable in terms of polarization attributes. These geometric and physical interpretations are made possible by the use of quaternion algebra. More importantly, the framework does not sacrifice any mathematical guarantee and the newly introduced tools admit computationally fast implementations. By revealing the specificity of bivariate signals, the proposed framework greatly simplifies the design of analysis and filtering operations. Numerical experiment support throughout our theoretical developments. We demonstrate the potential of the approach for the characterization of (polarized) gravitational waves emitted by compact coalescing binaries. A companion Python package called BiSPy implements our findings for the sake of reproducibility.},
-  title={A general approach for the analysis and filtering of bivariate signals},
-  author={Flamant, Julien},
-  year={2018},
-  code={https://github.com/jflamant/bispy},
+@book{przibram1967letters,
+  bibtex_show={true},
+  title={Letters on wave mechanics},
+  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
+  year={1967},
+  publisher={Vision},
+  preview={wave-mechanics.gif}
 }
