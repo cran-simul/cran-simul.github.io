@@ -2,7 +2,7 @@
 layout: about
 inline: true
 group: Ph.D. students
-group_rank: 2
+group_rank: 4
 team_frontpage: false
 
 title: Narech Houessou
