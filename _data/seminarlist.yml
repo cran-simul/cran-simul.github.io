@@ -6,6 +6,23 @@
 #
 #   In this talk we will cover the automatic learning reasoning capabilities through large-scale training of deep neural networks from data, and we target different situations, like robotics and embodied computer vision (robot navigation to solve visual tasks) as well as vision and language reasoning (visual question answering). We explore this problem in a holistic way and study it from various angles of attack: what are the tasks which lead to emergence of reasoning? How can we evaluate agents and measure reasoning vs. bias exploitation? How can we x-ray neural models and visualize their internal behavior? What are the bottlenecks in learning reasoning? Can we structure neural networks with inductive bias to improve the emergence of reasoning, by including prior knowledge on geometry, physics, or semantics?"
 #   active: 1
+
+-  speaker:  Xavier Luciani
+   institution: University of Toulon
+   date:  October, 5th 2023, 13h-14h
+   title: "TBD"
+   abstract: TBD
+   active: 1
+   year: 2023
+
+-  speaker:  Nuha Diab
+   institution: Tel Aviv University, Israel
+   date:  September, 26th 2023, 14h-15h
+   title: "Optimal super-resolution of close point sources and stability of Prony's method"
+   abstract: "We consider the problem of recovering a linear combination of Dirac masses from noisy Fourier samples, also known as the problem of super-resolution. Following recent derivation of min-max bounds for this problem when some of the sources collide, we develop an optimal algorithm which provably achieves these bounds in such a challenging scenario. Our method is based on the well-known Prony's method for exponential fitting, and a novel analysis of its stability in the near-colliding regime, combined with the decimation technique for improving the conditioning of the problem."
+   active: 1
+   year: 2023
+
 -  speaker:  Joppe De Jonghe
    institution: KU Leuven, Belgium
    date:  April, 6th 2023, 14h-15h
