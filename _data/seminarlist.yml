@@ -17,7 +17,7 @@
 
 -  speaker:  Nuha Diab
    institution: Tel Aviv University, Israel
-   date:  September, 26th 2023, 14h-15h
+   date:  September, 26th 2023, 14h-14h40
    title: "Optimal super-resolution of close point sources and stability of Prony's method"
    abstract: "We consider the problem of recovering a linear combination of Dirac masses from noisy Fourier samples, also known as the problem of super-resolution. Following recent derivation of min-max bounds for this problem when some of the sources collide, we develop an optimal algorithm which provably achieves these bounds in such a challenging scenario. Our method is based on the well-known Prony's method for exponential fitting, and a novel analysis of its stability in the near-colliding regime, combined with the decimation technique for improving the conditioning of the problem."
    active: 1
