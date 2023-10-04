@@ -10,8 +10,8 @@
 -  speaker:  Xavier Luciani
    institution: University of Toulon
    date:  October, 5th 2023, 13h-14h
-   title: "TBD"
-   abstract: TBD
+   title: "Décomposition Canonique Polyadique et  Diagonalisation Conjointe de matrices par Similitude : algorithmes et applications"
+   abstract: "En traitement du signal, la Décomposition Canonique Polyadique (DCP) consiste à décomposer un tableau multidimensionnel (appelé ici tenseur) en une combinaison multilinéaire d'un minimum de facteurs, comprenant généralement les signaux d'intérêt. Cette approche est donc couramment utilisée en séparation de sources, identification de mélange et plus généralement pour la résolution de problèmes inverses. Par ailleurs, de nombreux liens ont été établis entre la DCP et le problème de diagonalisation conjointe de matrices, que l'on retrouve également au cœur de nombreuses méthodes de séparation de sources. Nous montrerons dans la première partie de cette présentation comment réécrire la DCP sous la forme d'une Diagonalisation Conjointe de matrices par Similitude (DCS) afin d'en dériver un algorithme de calcul efficace. Nous présenterons alors plusieurs familles d'algorithmes de DCS permettant notamment de traiter le cas de signaux à valeurs complexes ou de tenir compte de contraintes de non négativité. Dans la seconde partie, nous nous placerons dans le contexte applicatif de la spectroscopie de fluorescence pour introduire un autre algorithme de DCP permettant cette fois la mise à jour des facteurs de la décomposition (et de leur nombre) au fil de l'acquisition de nouveaux signaux. Nous verrons que ces deux algorithmes très différents dans leur principe ont pour point commun une certaine résistance à la surestimation du nombre de facteurs de la DCP. Enfin nous conclurons cette présentation en évoquant nos travaux actuels en collaboration avec le CRAN et consistant à étendre les notions de DCP et de DCS aux tenseurs et matrices dont les éléments appartiennent à l'algèbre des quaternions."
    active: 1
    year: 2023
 
@@ -20,7 +20,7 @@
    date:  September, 26th 2023, 14h-14h40
    title: "Optimal super-resolution of close point sources and stability of Prony's method"
    abstract: "We consider the problem of recovering a linear combination of Dirac masses from noisy Fourier samples, also known as the problem of super-resolution. Following recent derivation of min-max bounds for this problem when some of the sources collide, we develop an optimal algorithm which provably achieves these bounds in such a challenging scenario. Our method is based on the well-known Prony's method for exponential fitting, and a novel analysis of its stability in the near-colliding regime, combined with the decimation technique for improving the conditioning of the problem."
-   active: 1
+   active: 0
    year: 2023
 
 -  speaker:  Joppe De Jonghe
