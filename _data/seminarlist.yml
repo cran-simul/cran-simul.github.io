@@ -8,10 +8,11 @@
 #   active: 1
 
 -  speaker:  Shuyu Dong
-   institution: University of Toulon
+   institution: INRIA Saclay
    date:  January, 19th 2024, 15h-16h
    title: "Low-rank matrix/tensor decomposition methods: applications to data completion and causal structure learning "
    abstract: "Matrix and tensor decomposition plays a crucial role in addressing various real-world problems related to topics such as statistical inference, data acquisition, and data restoration. In this talk, we start with low-rank matrix/tensor models for the data completion problem [1,2]. We tackle this problem in the framework of low-rank matrix/tensor decomposition with a least-squares model. These rank-constrained problems are known not only for their low computational complexity but also the capability of extracting the most important information in the data. We discuss a type of Riemannian gradient-based algorithms that exploit the structure of these rank-constrained models. Secondly, we present a novel application of low-rank matrix methods in the context of causal structure learning. We will show how low-rank matrix decomposition, in combination with a sparse mask operator, can be used to efficiently find directed acyclic graphs (DAGs) proximal to a given graph (with cycles). Furthermore, for learning causal DAGs from observational data, we present a sparse matrix decomposition method [4] and discuss its efficiency through experiments on synthetic and real-world data. 
+   
    [1] S. Dong, P.-A. Absil, and K. A. Gallivan, Riemannian gradient descent methods for graph-regularized matrix completion. Linear Algebra and its Applications 623 (2021), 193-235  
 [2] S. Dong, B. Gao, Y. Guan, and F. Glineur, New Riemannian preconditioned algorithms for tensor completion via polyadic decomposition, SIAM Journal on Matrix Analysis and Applications 43 (2) (2022), 840-866  
 [3] S. Dong and M. Sebag, From graphs to DAGs: a low-complexity model and a scalable algorithm, European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD), 2022  
