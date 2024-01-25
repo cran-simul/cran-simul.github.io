@@ -6,7 +6,34 @@ nav: true
 nav_rank: 3
 ---
 <h5>Current open positions</h5> 
-{% include jobs.html %}
+<!-- {% include jobs.html %} -->
+
+<div class="news">
+  {% assign active_jobs = site.jobs | where: "active", "true" %}
+  {% if active_jobs != blank -%}
+  <div class="table-responsive" style="max-height: 60vw">
+    <table class="table table-sm table-borderless">
+    {%- assign jobs = active_jobs | reverse -%}
+    {% for item in jobs %}
+      <tr>
+        <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+        <td>
+          {% if item.inline -%}
+            {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+          {%- else -%}
+            <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {%- endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+    </div>
+    {%- else -%}
+      <p>There are no open position currently but we might find some. Send us an email! See also our <a href="{{base.url}}/jobs/">past positions</a>.</p>
+    {%- endif %}
+</div>
+
+
 
 <h5>Past positions</h5> 
 <div class="news">
