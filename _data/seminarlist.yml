@@ -11,7 +11,7 @@
    institution: SkolTech, Russia
    date:  February, 9th 2024, 14h-15h
    title: "Introduction to Deep Nonnegative Matrix Factorization and Stochastic Optimization with heavy-tails"
-   abstract: "Part 1: Deep Nonnegative Matrix Factorization with β-Divergences
+   abstract: "Part 1: Deep Nonnegative Matrix Factorization with β-Divergences<br/>
 Our first topic revolves around the Deep Nonnegative Matrix Factorization (deep NMF), a novel and promising facet of unsupervised learning. Deep NMF has emerged as a potent technique for extracting multi-layered features spanning various scales. However, conventional deep NMF models have primarily relied on the least squares error as their evaluation metric, which may not be the most suitable gauge for assessing the quality of approximations across diverse datasets. For data types such as audio signals and documents, β-divergences have gained recognition as a more fitting alternative. In this seminar, we present new models and algorithms that harness β-divergences to enhance deep NMF, with an emphasis on the notion of identifiability.
 
 Part 2: Heavy-Tailed Stochastic Optimization for Deep Neural Networks
