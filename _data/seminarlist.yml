@@ -10,8 +10,8 @@
 -  speaker:  Linus Bleisten
    institution: Inria Paris
    date:  March, 11th 2024, 14h-15h
-   title: "TBA"
-   abstract: "TBA" 
+   title: "Dynamical Survival Analysis with Controlled Latent States"
+   abstract: "We consider the task of learning individual specific intensities of survival processes from static and longitudinal data. Modeling the intensities as solutions to non-parametric unknown differential equations allows us to provide a precise bias-variance decomposition of a signature-based estimator. This estimator yields excellent performance on a large array of both simulated and real datasets from finance, predictive maintenance and churn prediction." 
    active: 1
    year: 2024
    
