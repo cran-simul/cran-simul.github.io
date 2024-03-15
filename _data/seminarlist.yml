@@ -7,7 +7,13 @@
 #   In this talk we will cover the automatic learning reasoning capabilities through large-scale training of deep neural networks from data, and we target different situations, like robotics and embodied computer vision (robot navigation to solve visual tasks) as well as vision and language reasoning (visual question answering). We explore this problem in a holistic way and study it from various angles of attack: what are the tasks which lead to emergence of reasoning? How can we evaluate agents and measure reasoning vs. bias exploitation? How can we x-ray neural models and visualize their internal behavior? What are the bottlenecks in learning reasoning? Can we structure neural networks with inductive bias to improve the emergence of reasoning, by including prior knowledge on geometry, physics, or semantics?"
 #   active: 1
 
-
+-  speaker:  Paul Catala 
+   institution: Helmholtz Munich & TUM, Germany
+   date:  March, 25th 2024, 10h-11h
+   title: "TBD"
+   abstract: "TBD" 
+   active: 1   
+   year: 2024
 
 -  speaker:  Marc Offroy 
    institution: LIEC, Université de Lorraine
@@ -22,7 +28,7 @@
    date:  March, 11th 2024, 14h-15h
    title: "Dynamical Survival Analysis with Controlled Latent States"
    abstract: "We consider the task of learning individual specific intensities of survival processes from static and longitudinal data. Modeling the intensities as solutions to non-parametric unknown differential equations allows us to provide a precise bias-variance decomposition of a signature-based estimator. This estimator yields excellent performance on a large array of both simulated and real datasets from finance, predictive maintenance and churn prediction." 
-   active: 1
+   active: 0
    year: 2024
    
 -  speaker:  Valentin Leplat
