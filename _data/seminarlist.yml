@@ -9,7 +9,7 @@
 
 -  speaker:  Paul Catala 
    institution: Helmholtz Munich & TUM, Germany
-   date:  March, 25th 2024, 10h-11h
+   date:  March, 25th 2024, 14h-15h
    title: "An Approximate Joint Diagonalization Algorithm for Off-the-Grid Sparse Recovery"
    abstract: "Many problems in imaging and data science require to reconstruct, from partial observations, highly concentrated signals, such as pointwise sources or contour lines. This work introduces a novel algorithm for recovering measures supported on such structured domains, given a finite number of their moments. Our approach is based on the traditional singular value decomposition methodology of subspace methods, but lifts their restriction to the framework of Dirac masses, and is able to recover geometrically faithful discrete approximations of measures with density. The crucial step consists in the approximate joint diagonalization of a few non-commuting matrices, which we perform using a quasi-Newton algorithm. Experiments show that our method performs well, not only in the setting of well separated Dirac masses, as predicted by the standard theory of the truncated moment problem, but also in the case of continuous measures, which is not covered by theoretical guarantees and where usual methods empirically fail. We illustrate its applicability in optimal transport problems, where the coupling measure is often localized on the graph of some function." 
    active: 1   
