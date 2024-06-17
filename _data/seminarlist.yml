@@ -7,12 +7,27 @@
 #   In this talk we will cover the automatic learning reasoning capabilities through large-scale training of deep neural networks from data, and we target different situations, like robotics and embodied computer vision (robot navigation to solve visual tasks) as well as vision and language reasoning (visual question answering). We explore this problem in a holistic way and study it from various angles of attack: what are the tasks which lead to emergence of reasoning? How can we evaluate agents and measure reasoning vs. bias exploitation? How can we x-ray neural models and visualize their internal behavior? What are the bottlenecks in learning reasoning? Can we structure neural networks with inductive bias to improve the emergence of reasoning, by including prior knowledge on geometry, physics, or semantics?"
 #   active: 1
 
+-  speaker:  Ivan Yakushev 
+   date:  June, 19th 2024, 10h30-11h30
+   title: "Application of machine learning in visual art"
+   abstract: "This presentation will explore the current state of using local diffusion models in video and image generation, the interfaces and workflows commonly utilized in this area. In addition to highlighting the current capabilities of these models, we will also discuss their limitations and potential opportunities for future research and multidisciplinary collaboration."
+   active: 1  
+   year: 2024
+   
+-  speaker:  Konstantin Usevich 
+   institution: CRAN
+   date:  June, 10th 2024, 14h-15h
+   title: "Algebraic Algorithms for the ParaTuck-2 Decomposition"
+   abstract: "ParaTuck-2 decomposition (PT2D) of 3-rd order tensors is a 2-level extension of the well-known CP (canonical polyadic) decomposition (CPD). It is relevant in several applications, such as chemometrics, telecommunications, and machine learning. As shown in (Harshman, Lundy, 1996), the PT2D enjoys strong uniqueness properties (up to scaling/permutation ambiguities, similarly to the CPD). However, there are very few results on theory and algorithms for the PT2D. In particular, common strategies, such as the alternating least squares, suffer from convergence and initialization issues. We propose an algebraic algorithm for the PT2D decomposition in the case when the ParaTuck-2 ranks are smaller than the frontal dimensions of the tensor. Our approach relies only on linear algebra operations and is based on finding the kernel of a structured matrix constructed from the tensor. It refines the previously known identifiability conditions. Yet another algorithm is proposed for the symmetric case, which appears in the implicit approach to the PARAFAC-2 model." 
+   active: 0  
+   year: 2024
+
 -  speaker:  Vicente Zarzoso 
    institution: Université Côte d'Azur, Nice
    date:  April, 15th 2024, 15h-16h
    title: "Tensor decomposition of ECG records for persistent atrial fibrillation analysis"
    abstract: "Considered as the last great frontier of cardiac electrophysiology, atrial fibrillation (AF) is the most common sustained arrhythmia encountered in clinical practice, responsible for high hospitalization rates and a significant proportion of brain strokes in the Western world. Analyzing AF electrophysiological complexity noninvasively requires the extraction of the atrial activity (AA) signal from the electrocardiogram (ECG). To perform this task, most approaches including classical average beat subtraction need sufficiently long ECG records, thus limiting real-time analysis. Matrix factorizations can also be used for AA signal estimation by exploiting the spatial diversity of the multi-lead ECG, but require some constraints to guarantee uniqueness that may lack physiological grounds and hinder results interpretation.<br/>This talk will review recent results obtained at the I3S Laboratory, UMR 7271, Université Côte d'Azur, CNRS, on tensor decompositions for noninvasive AA signal extraction in AF ECGs, which guarantee uniqueness under milder constraints on their factors. Specifically, the block term decomposition (BTD) has been shown to be particularly suitable to address this biomedical problem, as atrial and ventricular cardiac activity sources can be modeled by matrices with special structure. The structure of these matrices ensures model uniqueness while their rank is linked to signal complexity. In this framework, we have put forward the Hankel and Löwner BTD as AA extraction tools in AF ECG episodes, with validation in a population of persistent AF patients and several challenging types of ECG segments, including short beat-to-beat intervals and low-amplitude fibrillatory waves. Accurate AA extraction can be achieved from ECG segments as short as a single heartbeat. We have also developed a robust computational algorithm - the so-called alternating group lasso BTD (BTD-AGL) - to simultaneously recover the model structure (number of block terms and multilinear rank of each term) and the model factors. In addition, tensor modeling allows us to derive a novel index to quantify AF complexity nonivasively, useful to characterize stepwise catheter ablation, a first-line therapeutic option for the treatment of persistent forms of the arrhythmia. The index correlates with the expected decrease in AF complexity over ablation steps and is predictive of AF recurrence, which presents clear clinical interest." 
-   active: 1  
+   active: 0  
    year: 2024
 
 -  speaker:  Paul Catala 
