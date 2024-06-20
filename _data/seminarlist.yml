@@ -8,10 +8,11 @@
 #   active: 1
 
 -  speaker:  Ivan Yakushev 
+   institution: ENSAD, Nancy
    date:  June, 19th 2024, 10h30-11h30
    title: "Application of machine learning in visual art"
    abstract: "This presentation will explore the current state of using local diffusion models in video and image generation, the interfaces and workflows commonly utilized in this area. In addition to highlighting the current capabilities of these models, we will also discuss their limitations and potential opportunities for future research and multidisciplinary collaboration."
-   active: 1  
+   active: 0
    year: 2024
    
 -  speaker:  Konstantin Usevich 
