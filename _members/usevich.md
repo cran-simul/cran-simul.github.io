@@ -24,7 +24,7 @@ profile:
     github: 
     email: konstantin.usevich@univ-lorraine.fr
     keywords:
-    website: http://w3.cran.univ-lorraine.fr/konstantin.usevich/?q=content/home
+    website: http://w3.cran.univ-lorraine.fr/konstantin.usevich/
     scholar: https://scholar.google.com/citations?user=9qkzr10AAAAJ&hl=fr
     address: >
             Faculté des Sciences et Technologies, Bâtiment 1er cycle, F-54000 Nancy, Office 426
