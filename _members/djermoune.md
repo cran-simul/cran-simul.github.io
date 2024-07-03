@@ -11,7 +11,7 @@ lastname: Djermoune
 publications: 'author^=*djermoune'
 
 teaser: > 
-    Associate Professor (HdR) at Université de Lorraine <br/>
+    Full Professor at Université de Lorraine <br/>
     co-Head of BioSiS department, CRAN
     
     
