@@ -12,8 +12,6 @@ publications: 'author^=*Usevich'
 
 teaser: > 
     CNRS researcher
-    
-    
 
 profile:
     name: Konstantin Usevich
