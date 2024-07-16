@@ -6,7 +6,14 @@
 #
 #   In this talk we will cover the automatic learning reasoning capabilities through large-scale training of deep neural networks from data, and we target different situations, like robotics and embodied computer vision (robot navigation to solve visual tasks) as well as vision and language reasoning (visual question answering). We explore this problem in a holistic way and study it from various angles of attack: what are the tasks which lead to emergence of reasoning? How can we evaluate agents and measure reasoning vs. bias exploitation? How can we x-ray neural models and visualize their internal behavior? What are the bottlenecks in learning reasoning? Can we structure neural networks with inductive bias to improve the emergence of reasoning, by including prior knowledge on geometry, physics, or semantics?"
 #   active: 1
-
+-  speaker:  Helena Calatrava  
+   institution: Northeastern University, Boston, USA
+   date:  July, 16th 2024, 11h00-12h00
+   title: "GNSS Signal Processing for Precise and Robust Positioning"
+   abstract: "In this talk, we will explore two methodologies designed to enhance the performance of Global Navigation Satellite Systems (GNSS): collaborative positioning techniques to improve positioning accuracy and robust signal processing to enhance resilience against jamming attacks. First, we will introduce the Massive User-Centric Single Difference (MUCSD) algorithm, which enhances GNSS accuracy through user collaboration. MUCSD leverages a network of receivers exchanging observables and noisy estimates of position and clock bias. Implemented as an iterative weighted least squares (WLS) estimator, MUCSD achieves a performance comparable to Differential GNSS (DGNSS) without the need for costly reference stations. Simulation results demonstrate that MUCSD outperforms DGNSS as the number of collaborative receivers increases, showcasing its scalability. Next, we will discuss the Robust Interference Mitigation (RIM) framework for snapshot architectures, addressing interferences such as continuous wave and chirp jamming signals. While studies on RIM typically assume the number of quantization bits allows for full signal representation, our study examines the impact of low quantization bits on baseline snapshot receiver performance in the presence of interference. Additionally, we will analyze the effect of quantization on the median absolute deviation (MAD) robust measure of statistical dispersion. By combining collaborative positioning techniques and robust interference mitigation, this talk will showcase advancements that improve GNSS precision and resilience."
+   active: 0
+   year: 2024
+   
 -  speaker:  Ivan Yakushev 
    institution: ENSAD, Nancy
    date:  June, 19th 2024, 10h30-11h30
