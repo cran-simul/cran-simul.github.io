@@ -6,6 +6,15 @@
 #
 #   In this talk we will cover the automatic learning reasoning capabilities through large-scale training of deep neural networks from data, and we target different situations, like robotics and embodied computer vision (robot navigation to solve visual tasks) as well as vision and language reasoning (visual question answering). We explore this problem in a holistic way and study it from various angles of attack: what are the tasks which lead to emergence of reasoning? How can we evaluate agents and measure reasoning vs. bias exploitation? How can we x-ray neural models and visualize their internal behavior? What are the bottlenecks in learning reasoning? Can we structure neural networks with inductive bias to improve the emergence of reasoning, by including prior knowledge on geometry, physics, or semantics?"
 #   active: 1
+
+-  speaker:  Pardis Semnani  
+   institution: University of British Columbia, Vancouver, Canada
+   date:  July, 22th 2024, 14h00-15h00
+   title: "Homaloidal polynomials and Gaussian models of maximum likelihood degree one"
+   abstract: "We study the Gaussian statistical models whose log-likelihood function has a unique complex critical point, i.e., has maximum likelihood degree one. We exploit the connection developed by Améndola et. al. between the models having maximum likelihood degree one and homaloidal polynomials. We study the spanning tree generating function of a graph and show this polynomial is homaloidal when the graph is chordal. When the graph is a cycle on n vertices, n≥4, we prove the polynomial is not homaloidal, and show that the maximum likelihood degree of the resulting model is the nth Eulerian number. These results support our conjecture that the spanning tree generating function is a homaloidal polynomial if and only if the graph is chordal. We also provide an algebraic formulation for the defining equations of these models. Using existing results, we provide a computational study on constructing new families of homaloidal polynomials. In the end, we analyze the symmetric determinantal representation of such polynomials and provide an upper bound on the size of the matrices involved."
+   active: 1
+   year: 2024
+
 -  speaker:  Helena Calatrava  
    institution: Northeastern University, Boston, USA
    date:  July, 16th 2024, 11h00-12h00
