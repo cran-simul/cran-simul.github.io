@@ -12,7 +12,7 @@
    date:  July, 22th 2024, 14h00-15h00
    title: "Homaloidal polynomials and Gaussian models of maximum likelihood degree one"
    abstract: "We study the Gaussian statistical models whose log-likelihood function has a unique complex critical point, i.e., has maximum likelihood degree one. We exploit the connection developed by Améndola et. al. between the models having maximum likelihood degree one and homaloidal polynomials. We study the spanning tree generating function of a graph and show this polynomial is homaloidal when the graph is chordal. When the graph is a cycle on n vertices, n≥4, we prove the polynomial is not homaloidal, and show that the maximum likelihood degree of the resulting model is the nth Eulerian number. These results support our conjecture that the spanning tree generating function is a homaloidal polynomial if and only if the graph is chordal. We also provide an algebraic formulation for the defining equations of these models. Using existing results, we provide a computational study on constructing new families of homaloidal polynomials. In the end, we analyze the symmetric determinantal representation of such polynomials and provide an upper bound on the size of the matrices involved."
-   active: 1
+   active: 0
    year: 2024
 
 -  speaker:  Helena Calatrava  
