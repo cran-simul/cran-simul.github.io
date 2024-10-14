@@ -14,6 +14,14 @@ To get the latest anouncements, you can subscribe to the seminar mailing list [c
 - to subscribe, send a blank email to [sympa@univ-lorraine.fr](mailto:sympa@univ-lorraine.fr) with object **SUBSCRIBE cran-simul-seminars**. A admin will review and validate your request. 
 - to unsubscribe, send a blank email to [sympa@univ-lorraine.fr](mailto:sympa@univ-lorraine.fr) with object **UNSUBSCRIBE cran-simul-seminars**. A admin will review and validate your request. 
 
+
+## Calendar 
+The calendar below includes internal team meetings (GT SiMul) and seminars from invited speakers. 
+
+<iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=2&ctz=Europe%2FParis&bgcolor=%23ffffff&mode=AGENDA&showTabs=0&showPrint=0&showNav=0&showCalendars=0&src=cGE0OXNwZzAzbmNyNDRsamJxNTY2aWZoM29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23E67C73" style="border:solid 1px #777" width="800" height="300" frameborder="0" scrolling="no"></iframe>
+
+
+
 <!-- ## Upcoming seminars
 
 {% for seminar in site.data.seminarlist %}
