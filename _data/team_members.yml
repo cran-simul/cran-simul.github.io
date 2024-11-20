@@ -51,8 +51,8 @@
   scholar: https://scholar.google.com/citations?user=FeiFDgkAAAAJ&hl=en
   researchgate: https://www.researchgate.net/profile/Ricardo-Borsoi
 
-- name: Alain Delconte
-  photo: delconte.jpg
-  info: Research Engineer
-  email: alain.delconte@univ-lorraine.fr
-  keywords: Hyperspectral Imaging platform manager
+# - name: Alain Delconte
+#   photo: delconte.jpg
+#   info: Research Engineer
+#   email: alain.delconte@univ-lorraine.fr
+#   keywords: Hyperspectral Imaging platform manager
