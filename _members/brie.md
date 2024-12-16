@@ -22,7 +22,7 @@ profile:
     role: Faculty
     twitter: 
     github: 
-    email: davie.brie@univ-lorraine.fr
+    email: david.brie@univ-lorraine.fr
     keywords:
     website: http://www.cran.univ-lorraine.fr/detailindividupublic.php?appel=annuaire&codetheme&codeindividu=00089&codelangue=FR
     scholar: https://scholar.google.fr/citations?user=BknnqrgAAAAJ&hl=fr
