@@ -5,7 +5,7 @@ title: seminars
 description: 
 nav: true
 nav_rank: 0
-years: [2024, 2023, 2022, 2021, 2020]
+years: [2025,2024, 2023, 2022, 2021, 2020]
 ---
 
 Our group host seminars on a regular monthly basis, either in person or remotely. 
