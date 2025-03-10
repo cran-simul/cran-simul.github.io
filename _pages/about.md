@@ -19,7 +19,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 
-We are a research group part of the <a href="http://www.cran.univ-lorraine.fr/francais/themes_rech/biosis/index.php">BioSiS department</a> at <a href="http://www.cran.univ-lorraine.fr/">CRAN, Nancy</a>. 
+We are a research group part of the <a href="https://www.cran.univ-lorraine.fr/en/departments/biosis/">BioSiS department</a> at <a href="http://www.cran.univ-lorraine.fr/">CRAN, Nancy</a>. 
 We develop novel theoretical and methodological tools for the processing of multidimensional data, putting together mathematical concepts, physical modeling and experimental data processing. 
 
 
