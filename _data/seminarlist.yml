@@ -7,12 +7,28 @@
 #   In this talk we will cover the automatic learning reasoning capabilities through large-scale training of deep neural networks from data, and we target different situations, like robotics and embodied computer vision (robot navigation to solve visual tasks) as well as vision and language reasoning (visual question answering). We explore this problem in a holistic way and study it from various angles of attack: what are the tasks which lead to emergence of reasoning? How can we evaluate agents and measure reasoning vs. bias exploitation? How can we x-ray neural models and visualize their internal behavior? What are the bottlenecks in learning reasoning? Can we structure neural networks with inductive bias to improve the emergence of reasoning, by including prior knowledge on geometry, physics, or semantics?"
 #   active: 1
 
+-  speaker: Pavlo Mozharovskyi
+   institution: Télécom Paris, France
+   date: October, 10th 2025, 14h00-15h00
+   title: "Explainable anomaly detection using data depth"
+   abstract: "Anomaly detection is a branch of data analysis and machine learning which aims at identifying observations that exhibit abnormal behaviour. Be it measurement errors, disease development, severe weather, production quality default(s) (items) or failed equipment, financial frauds or crisis events, their on-time identification, isolation and explanation constitute an important task in almost any branch of science and industry. By providing a robust ordering, data depth - statistical function that measures belongingness of any point of the space to a data set - becomes a particularly useful tool for detection of anomalies. Already known for its theoretical properties, data depth has undergone substantial computational developments in the last decade and particularly recent years, which has made it applicable for contemporary-sized problems of data analysis and machine learning. \n  We study data depth as an efficient anomaly detection tool, assigning abnormality labels to observations with lower depth values, in a multivariate setting. Practical questions of necessity and reasonability of invariances and shape of the depth function, their robustness and computational complexity, choice of the threshold are discussed. Furthermore, we introduce a new statistical tool dedicated for exploratory analysis of abnormal observations using data depth as a score. Abnormal component analysis (shortly ACA) is a method that searches a low-dimensional data representation which best visualises and explains anomalies. This low-dimensional representation not only allows to distinguish groups of anomalies better than the methods of the state of the art, but as well provides a -- linear in variables and thus easily interpretable -- explanation for anomalies. Illustrations include use-cases that underline advantageous behaviour of data depth and of the explainable anomaly detection, in various settings."
+   active: 1
+   year: 2025
+
+-  speaker: Jonas Wahl 
+   institution: German Research Centre for Artificial Intelligence (DFKI)
+   date: September, 22th 2025, 13h-14h
+   title: "Are our DAGs correct? Recent developments in causal model evaluation"
+   abstract: "Causal graphical models are considered important tools to integrate expert knowledge into statistical data analysis. As consequence, practitioners often face the challenge to evaluate the quality of their hypothesized causal models. This issue becomes particularly salient for causal graphical models obtained through a causal discovery method in which case most or all of the available data has already been used in the discovery task. In this talk, we will review recent developments regarding the evaluation of causal models and structure learning methods. In particular, we will discuss to which degree assumption violations can be detected in causal discovery and how method testing often introduces additional assumptions that need to be weighted carefully against the assumptions of the initial learning algorithm."
+   active: 0
+   year: 2025
+
 -  speaker: Guilherme Holsbach Costa
    institution: University of Caxias do Sul, Brazil
    date: February, 25th 2025, 14h00-15h00
    title: "On the Super-Resolution Image Reconstruction and Phase Correlation Image Registration: methods, insights, and challenges"
    abstract: "In this seminar, we will explore classical methods in image processing, focusing on two key topics. First, we will discuss the methodology of analytical approaches applied to the Least Mean Squares (LMS) algorithm for super-resolution image reconstruction. We will highlight how this analysis framework could also be extended to study LMS applications in image registration. In the second part, we will present an ongoing application in autonomous vehicles, where we employ Phase Correlation for image registration. This method was chosen due to its well-established position in the literature and its potential for straightforward analytical evaluation. We will talk about recent challenges we have encountered in our implementation and our ongoing efforts to overcome them."
-   active: 1
+   active: 0
    year: 2025
 
 -  speaker:  Pardis Semnani  
