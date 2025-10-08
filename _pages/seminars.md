@@ -44,51 +44,36 @@ The calendar below includes internal team meetings (GT SiMul) and seminars from 
 {% endif %}
 {% endfor %} -->
 
-<!-- ## Past seminars
 
-
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-{% assign seminars = site.data.seminarlist | where: "year", {{y}} %}
-{% for seminar in seminars %}
-{% if seminar.active == 0%}
-
-
-    
-
-  <b>{{ seminar.speaker }}</b> ({{seminar.institution}})<br/>
-  {{seminar.date}}<br/>
-   <em>{{ seminar.title }}</em><br />
-
-<p>
-    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse-past-{{forloop.index}}" aria-expanded="false" aria-controls="collapse-past-{{forloop.index}}">
-    Abstract
-  </button> {% if seminar.pdf%} <button type="button" class="btn btn-light" onclick="window.location='/assets/seminars/{{seminar.pdf}}';">slides</button> {% endif %}
-</p>    
-<div class="collapse" id="collapse-past-{{forloop.index}}">
-  <div class="card card-body">
-{{seminar.abstract}}
-  </div>
-</div>
-
-{% endif %}
-{% endfor %}
-{% endfor %} -->
 
 
 
 ## Upcoming seminars
 
+<div style="margin-top:20px; margin-bottom:20px;">
 {% assign upcoming_seminars = site.data.seminarlist | where: "active", 1 %}
 {% if upcoming_seminars.size > 0 %}
   {% for seminar in upcoming_seminars %}
     <b>{{ seminar.speaker }}</b> ({{seminar.institution}})<br/>
     {{seminar.date}}<br/>
-    <em>{{ seminar.title }}</em><br /><br />
+    <em>{{ seminar.title }}</em><br />
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse-upcoming-{{forloop.index}}" aria-expanded="false" aria-controls="collapse-upcoming-{{forloop.index}}">
+      Abstract
+    </button>
+    {% if seminar.pdf %}
+      <button type="button" class="btn btn-light" onclick="window.location='/assets/seminars/{{seminar.pdf}}';">slides</button>
+    {% endif %}
+    <div class="collapse" id="collapse-upcoming-{{forloop.index}}">
+      <div class="card card-body">
+        {{seminar.abstract}}
+      </div>
+    </div>
+    <br/>
   {% endfor %}
 {% else %}
   <p>There are no upcoming seminars at the moment. Please check back later.</p>
 {% endif %}
+</div>
 
 
 ## Past seminars
