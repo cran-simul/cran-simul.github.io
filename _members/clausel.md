@@ -1,8 +1,8 @@
 ---
 layout: about
 inline: true
-group: External Collaborators
-group_rank: 2
+group: Faculty
+group_rank: 1
 team_frontpage: false
 
 title: Marianne Clausel
@@ -11,12 +11,12 @@ lastname: Clausel
 publications: 'author^=*Clausel'
 
 teaser: > 
-    Full professor at IECL, Nancy
+    Full Professor at Université de Lorraine
     
     
 
 profile:
-    name: Marianne Clausel
+    name: Marianne Clausel 
     align: right
     image: misc.jpg
     role: External Collaborators
@@ -25,6 +25,5 @@ profile:
     email: marianne.clausel@univ-lorraine.fr
     website: https://sites.google.com/site/marianneclausel/
     address: >
-            Faculté des Sciences et Technologies, Bâtiment 1er cycle, F-54000 Nancy
-
+            Faculté des Sciences et Technologies, Bâtiment 1er cycle, F-54000 Nancy, Office 408
 ---

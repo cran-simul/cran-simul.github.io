@@ -5,7 +5,7 @@ group: Faculty
 group_rank: 1
 team_frontpage: false
 
-title: El-Hadi Djermoune (Associate Professor)
+title: El-Hadi Djermoune 
 description: 
 lastname: Djermoune
 publications: 'author^=*djermoune'
