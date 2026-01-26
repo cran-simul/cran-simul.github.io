@@ -7,6 +7,14 @@
 #   In this talk we will cover the automatic learning reasoning capabilities through large-scale training of deep neural networks from data, and we target different situations, like robotics and embodied computer vision (robot navigation to solve visual tasks) as well as vision and language reasoning (visual question answering). We explore this problem in a holistic way and study it from various angles of attack: what are the tasks which lead to emergence of reasoning? How can we evaluate agents and measure reasoning vs. bias exploitation? How can we x-ray neural models and visualize their internal behavior? What are the bottlenecks in learning reasoning? Can we structure neural networks with inductive bias to improve the emergence of reasoning, by including prior knowledge on geometry, physics, or semantics?"
 #   active: 1
 
+-  speaker: Leonardo Tomazeli Duarte
+   institution: University of Campinas (Unicamp, Brazil)
+   date: January, 27th 2025, 10h30-11h30
+   title: "Fairness-Aware Unsupervised Learning: Contributions to PCA and Data Aggregation"
+   abstract: "In this talk, we address fairness issues in unsupervised learning and data aggregation. First, we show that classical principal component analysis (PCA) may induce disparities in reconstruction errors across sensitive groups, leading to biased representations. A simple fairness-aware PCA approach is presented, based on a one-dimensional search that exploits the closed-form solution of PCA, significantly reducing group disparities with minimal loss in overall performance. Second, we discuss fairness in multicriteria decision analysis, introducing a framework for adjusting aggregation operators to produce fairer rankings. The approach relies on optimizing a fairness metric for both additive weighting and Choquet integral models, and its effectiveness is demonstrated on synthetic and real datasets."
+   active: 1
+   year: 2026
+
 -  speaker: Pavlo Mozharovskyi
    institution: Télécom Paris, France
    date: October, 10th 2025, 14h00-15h00
