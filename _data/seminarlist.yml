@@ -7,12 +7,31 @@
 #   In this talk we will cover the automatic learning reasoning capabilities through large-scale training of deep neural networks from data, and we target different situations, like robotics and embodied computer vision (robot navigation to solve visual tasks) as well as vision and language reasoning (visual question answering). We explore this problem in a holistic way and study it from various angles of attack: what are the tasks which lead to emergence of reasoning? How can we evaluate agents and measure reasoning vs. bias exploitation? How can we x-ray neural models and visualize their internal behavior? What are the bottlenecks in learning reasoning? Can we structure neural networks with inductive bias to improve the emergence of reasoning, by including prior knowledge on geometry, physics, or semantics?"
 #   active: 1
 
+-  speaker: Roberto Cilli
+   institution: GeoRessources (Nancy)
+   date: February, 6th 2026, 14h-15h
+   title: "Transformer-Based Geo-technical Classification of Borehole Logs with Benchmarking of Uncertainty Quantification Methods"
+   abstract: "Geological borehole descriptions are a fundamental resource for subsurface modeling, yet they are often stored as unstructured text, limiting their usability for automated analysis. While a growing number of studies have applied natural language processing to geological texts, most approaches disregard the semantic continuity between adjacent lithological descriptions and overlook the structured nature of stratigraphic successions within borehole logs. In this study, we introduce a context-aware sequence labeling framework that applies natural language processing and positional encoding to classify lithological units from borehole log descriptions modeled as structured sequences by combining a pre-trained Sentence-BERT model for semantic encoding with a single-layer Transformer encoder that captures contextual and positional relationships (Reimers et al, 2019, Vaswani et al. 2017). We evaluate our approach on a dataset of manually labeled boreholes from the Pianello hillslope, located in Southern Italy, focusing on five lithological classes relevant to slope stability analysis. The proposed method achieves an accuracy gain of approximately 15% compared to a baseline random forest classifier fed with Sentence-BERT embeddings, revealing that the context of a lithological description can significantly improve the classification performance of NLP algorithms. Furthermore, we show that the proposed architecture, consisting of less than 350k learnable parameters, is lightweight and scalable, enabling rapid processing and confirming its practical applicability in real-world scenarios especially in low-resource computing environments (Asus ROG Flow X13 AMD Ryzen9 16GB RAM equipped with a NVIDIA RTX3050 4GB VRAM).
+ 
+Moreover, a comparison between benchmark uncertainty quantification (UQ) algorithms, including the Bayesian by Backprop (Blundell et al. 2015), Deep Ensemble (Lakshminarayanan et al. 2016), MC Dropout (Gal and Ghahramani, 2016) and a custom Bayesian framework inspired by Kendall and Gal, 2016.
+Results indicate that the framework inspired Kendall and Gal, 2016 is the only capable to disentangle the epistemic and aleatoric components of uncertainty, among those tested. However, uncertainty estimates still need further validation since we observed a weak negative correlation between epistemic uncertainty and classification accuracy in real unseen samples while undesired behaviours are observed when the network is fed with synthetic and meaningless inputs.
+
+References
+Kendall and Gal, 2016. What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?
+Lakshminarayanan et al. 2017, Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles.
+Gal and Z. Ghahramani, 2016. Dropout as a Bayesian approximation: Representing model uncertainty in deep learning.
+Kirkwood et al, 2022. Bayesian Deep Learning for Spatial Interpolation in the Presence of Auxiliary Information.
+N. Reimers, I. Gurevych, Sentence-BERT: Sentence embeddings using siamese BERT-Networks (2019).
+Vaswani et al, 2017. Attention is all you need."
+   active: 1
+   year: 2026
+
 -  speaker: Leonardo Tomazeli Duarte
    institution: University of Campinas (Unicamp, Brazil)
-   date: January, 27th 2025, 10h30-11h30
+   date: January, 27th 2026, 10h30-11h30
    title: "Fairness-Aware Unsupervised Learning: Contributions to PCA and Data Aggregation"
    abstract: "In this talk, we address fairness issues in unsupervised learning and data aggregation. First, we show that classical principal component analysis (PCA) may induce disparities in reconstruction errors across sensitive groups, leading to biased representations. A simple fairness-aware PCA approach is presented, based on a one-dimensional search that exploits the closed-form solution of PCA, significantly reducing group disparities with minimal loss in overall performance. Second, we discuss fairness in multicriteria decision analysis, introducing a framework for adjusting aggregation operators to produce fairer rankings. The approach relies on optimizing a fairness metric for both additive weighting and Choquet integral models, and its effectiveness is demonstrated on synthetic and real datasets."
-   active: 1
+   active: 0
    year: 2026
 
 -  speaker: Pavlo Mozharovskyi
