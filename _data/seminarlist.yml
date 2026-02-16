@@ -7,6 +7,22 @@
 #   In this talk we will cover the automatic learning reasoning capabilities through large-scale training of deep neural networks from data, and we target different situations, like robotics and embodied computer vision (robot navigation to solve visual tasks) as well as vision and language reasoning (visual question answering). We explore this problem in a holistic way and study it from various angles of attack: what are the tasks which lead to emergence of reasoning? How can we evaluate agents and measure reasoning vs. bias exploitation? How can we x-ray neural models and visualize their internal behavior? What are the bottlenecks in learning reasoning? Can we structure neural networks with inductive bias to improve the emergence of reasoning, by including prior knowledge on geometry, physics, or semantics?"
 #   active: 1
 
+
+
+-  speaker: Nicolas Petrochilos
+   institution: Crestic, Université de Reims Champagne-Ardenne (France)
+   date: March, 3th 2026, 14h-15h
+   title: "Cardio-Respiratory separation using non-uniform temporal alignment"
+   abstract: "Using a Doppler radar to monitor the heartbeat activity of a patient is not the most straightforward approach.
+   But an important benefit is that it can be operated as a remote sensing operation in rare cases where it is necessary. 
+   In doing so, the acquired signal corresponds to the chest displacement, which is the combination of
+   the respiratory signal and the cardiac one. Even assuming that the combination is linear, several challenges remain:
+   The noise power is quite high and not white, the power of the respiratory signal is at least 20 dB higher than the heart, and array source separation is not effective. Fortunately, the heartbeat signal can be described as a repeating template which frequency or phase [1]  is randomly slowly varying. Using this information and applying a non-uniform temporal alignment, can some separation be done?
+   [1] P.~E. McSharry, G.~D. Clifford, L.~Tarassenko, and L.~Smith, ``{A dynamical
+   model for generating synthetic electrocardiogram signals},'' \emph{IEEE Trans. Biomedical Engineering}, vol. 50(3), pp. 289--294, March 2003."
+   active: 1
+   year: 2026
+
 -  speaker: Roberto Cilli
    institution: GeoRessources (Nancy)
    date: February, 6th 2026, 14h-15h
@@ -20,7 +36,7 @@ Results indicate that the framework inspired Kendall and Gal, 2016 is the only c
 <br/>Kirkwood et al, 2022. Bayesian Deep Learning for Spatial Interpolation in the Presence of Auxiliary Information.
 <br/>N. Reimers, I. Gurevych, Sentence-BERT: Sentence embeddings using siamese BERT-Networks (2019).
 <br/>Vaswani et al, 2017. Attention is all you need."
-   active: 1
+   active: 0
    year: 2026
 
 -  speaker: Leonardo Tomazeli Duarte
