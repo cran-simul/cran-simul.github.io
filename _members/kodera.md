@@ -5,18 +5,18 @@ group: Ph.D. students
 group_rank: 4
 team_frontpage: false
 
-title: Viet Chuong Luong
+title: Sayako Kodera
 description: 
-lastname: Luong
-publications: 'author^=*Luong'
+lastname: Kodera
+publications: 'author^=*Kodera'
 
 teaser: >
-    PhD student (2024-2027) 
+    PhD student (2026-2029) 
     
 profile:
-    name: Viet Chuong Luong
+    name: Sayako Kodera
     align: right
-    email: chuong.luong@univ-lorraine.fr
+    email: sayako.kodera@univ-lorraine.fr
     role: Doctoral Researcher
     image: misc.jpg
     address: >

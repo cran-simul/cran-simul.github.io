@@ -5,18 +5,18 @@ group: Ph.D. students
 group_rank: 4
 team_frontpage: false
 
-title: Viet Chuong Luong
+title: Djahine Bourahla
 description: 
-lastname: Luong
+lastname: Bourahla
 publications: 'author^=*Luong'
 
 teaser: >
-    PhD student (2024-2027) 
+    PhD student (2025-2028) 
     
 profile:
-    name: Viet Chuong Luong
+    name: Djahine Bourahla
     align: right
-    email: chuong.luong@univ-lorraine.fr
+    email: djahine.bourahla@univ-lorraine.fr
     role: Doctoral Researcher
     image: misc.jpg
     address: >

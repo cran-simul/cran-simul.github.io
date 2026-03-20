@@ -5,18 +5,18 @@ group: Ph.D. students
 group_rank: 4
 team_frontpage: false
 
-title: Viet Chuong Luong
+title: Amel Guedjali
 description: 
-lastname: Luong
-publications: 'author^=*Luong'
+lastname: Guedjali
+publications: 'author^=*Guedjali'
 
 teaser: >
-    PhD student (2024-2027) 
+    PhD student (2025-2028) 
     
 profile:
-    name: Viet Chuong Luong
+    name: Amel Guedjali
     align: right
-    email: chuong.luong@univ-lorraine.fr
+    email: amel.guedjali@univ-lorraine.fr
     role: Doctoral Researcher
     image: misc.jpg
     address: >
